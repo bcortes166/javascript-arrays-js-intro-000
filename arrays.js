@@ -12,5 +12,3 @@ var destructivelyAddElementToBeginningOfArray = function(array, element) {
 
   return array
 }
-  
-
