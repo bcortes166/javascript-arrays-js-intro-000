@@ -30,3 +30,10 @@ var accessElementInArray = (array, index) => {
 
   return array[index]
 }
+
+derstructivelyRemoveElementFromBeginningOfArray = (array) => {
+
+  array.shift()
+
+  return array
+}
