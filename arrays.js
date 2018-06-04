@@ -31,9 +31,9 @@ var accessElementInArray = (array, index) => {
   return array[index]
 }
 
-var derstructivelyRemoveElementFromBeginningOfArray = () => {
+var derstructivelyRemoveElementFromBeginningOfArray = function(array) {
 
-  ().shift()
+ array.shift()
 
   return array
 }
