@@ -31,7 +31,7 @@ var accessElementInArray = (array, index) => {
   return array[index]
 }
 
-const derstructivelyRemoveElementFromBeginningOfArray = function(array) {
+var destructivelyRemoveElementFromBeginningOfArray = function(array) {
 
  array.shift()
 
